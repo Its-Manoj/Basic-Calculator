@@ -24,7 +24,7 @@ class Calculator {
 }
 
 
-public class CalculatorApp {
+public class BasicCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Calculator calc = new Calculator(); 
@@ -79,4 +79,5 @@ public class CalculatorApp {
         System.out.println("Calculator closed. Have a great day!");
     }
 }
+
 
