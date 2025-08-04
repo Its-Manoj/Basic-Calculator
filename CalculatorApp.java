@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Calculator class with methods
+
 class Calculator {
     public double add(double a, double b) {
         return a + b;
@@ -23,14 +23,14 @@ class Calculator {
     }
 }
 
-// Main class to run the app
+
 public class CalculatorApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Calculator calc = new Calculator(); // Object of Calculator class
+        Calculator calc = new Calculator(); 
         boolean continueCalc = true;
 
-        System.out.println("🔢 Welcome to Java OOP Console Calculator 🔢");
+        System.out.println("Welcome to Java OOP Console Calculator ");
 
         while (continueCalc) {
 
@@ -66,9 +66,9 @@ public class CalculatorApp {
                     continue;
             }
 
-            System.out.println("✅ Result: " + result);
+            System.out.println("Result: " + result);
 
-            System.out.print("Do you want to perform another calculation? (yes/no): ");
+            System.out.print("Do you want to perform another calculation ? (yes/no): ");
             String choice = scanner.next();
             if (!choice.equalsIgnoreCase("yes")) {
                 continueCalc = false;
@@ -76,6 +76,7 @@ public class CalculatorApp {
         }
 
         scanner.close();
-        System.out.println("👋 Calculator closed. Have a great day!");
+        System.out.println("Calculator closed. Have a great day!");
     }
 }
+
